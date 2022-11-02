@@ -8,4 +8,3 @@
 int input = 379; 
 
 SecondDigit(input);
-
