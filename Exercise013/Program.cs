@@ -30,12 +30,12 @@ void DigitQ(int input)
         int count2 = 0;
         while (count2 < count)
         {
-            n = input % 10;         //n=8              5 
-            input = input / 10;  //input = 235      23
-            list[index] = n;     // L[0] = 8        [1]=5
-            count2 = count2 + 1;   //count2 = 1       2
+            n = input % 10;         
+            input = input / 10;  
+            list[index] = n;     
+            count2 = count2 + 1;   
             if (index < count - 1)
-            {                       //  index=1
+            {                       
                 index = index + 1;
             }
         }
